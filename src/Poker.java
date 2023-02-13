@@ -3,6 +3,10 @@ import java.util.Random;
 public class Poker {
 
     public Poker() {
+        Osztas();
+        Osztas();
+    }
+    public void Osztas(){
         System.out.printf("%d %d %d %d %d\n",getPitch(),getPitch(),getPitch(),getPitch(),getPitch());
     }
     public int getPitch(){
